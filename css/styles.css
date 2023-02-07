@@ -7,6 +7,7 @@
     --logo-accent: #000000;
     --second-color: #e7e9fc;
     --green-hover-color: #31D0AA;
+    --hover-focus-color: #404bbf;
 }
 
 .body {
@@ -492,7 +493,7 @@ button {
 .section-customers {
     padding-top: 120px;
     padding-bottom: 130px;
-    display: flex;
+    display: block;
 
 }
 
@@ -557,22 +558,7 @@ button {
     background-image: url(../images/icons.svg/astron.svg);
 }
 
-.link-cust {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
 
-}
-
-.icon-cust {
-    width: calc((100%-120px)/6);
-    height: 88px;
-    list-style: none;
-}
 
 /* .icon {
     width: 104px;
@@ -589,10 +575,7 @@ button {
     display: flex;
 } */
 
-.customers-list {
-    display: flex;
-    gap: 24px;
-}
+
 
 /* ////Footer////// */
 
@@ -625,4 +608,53 @@ button {
     align-items: center;
     background-color: var(--accent-focus);
 
+}
+
+/* ////CUSTOMERS*/
+.icon-cust {}
+
+
+.list {}
+
+.icon {
+    width: 104px;
+    height: 56px;
+    fill: #afb1b8;
+
+
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.link-cust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+
+}
+
+
+.link-cust:hover,
+.link-cust:focus {
+    border-color: var(--hover-focus-color);
+
+}
+
+.link-cust:hover .icon,
+.link-cust:focus .icon {
+    fill: var(--hover-focus-color);
+}
+
+.icon-cust {
+    width: calc((100%-120px)/6);
+    height: 88px;
+    list-style: none;
 }
