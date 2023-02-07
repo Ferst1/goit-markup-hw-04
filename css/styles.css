@@ -550,7 +550,7 @@ button {
 }
 
 .icon-comp::before {
-    background-image: url(../images/icons.svg/diagram1.svg);
+    background-image: url(../images/icons.svg/diag.svg);
 }
 
 .icon-astronaut::before {
@@ -574,11 +574,11 @@ button {
     list-style: none;
 }
 
-.icon {
+/* .icon {
     width: 104px;
     height: 56px;
     fill: #afb1b8;
-}
+} */
 
 .customers {
     margin-bottom: 72px;
