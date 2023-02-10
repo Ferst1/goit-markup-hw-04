@@ -654,19 +654,17 @@ button {
     justify-content: center;
     align-items: center;
     background: rgba(255 255 255 0, 2);
-
     width: 40px;
     height: 40px;
+    background-color: #434455;
+
 }
 
-.soc-link-footer {
-    background: #2E2F42;
-}
 
 
 .soc-link-footer:hover,
 .soc-link-footer:focus {
-    background-color: var(--green-hover-color);
+    background: var(--green-hover-color);
 
 }
 
@@ -775,7 +773,7 @@ button {
 
 
 .tit-paragraf:hover,
-.paragraf:focus {
+.tit-paragraf:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -785,7 +783,13 @@ button {
 }
 
 .list-portfolio:hover,
-.list-portfolio:focus {}
+.list-portfolio:focus {
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
 
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -797,6 +801,18 @@ button {
     ;
 }
 
-.wrap {
-    /* display: block; */
+.schadow {}
+
+.tit-paragraf {}
+
+
+.img-portfolio {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
 }
